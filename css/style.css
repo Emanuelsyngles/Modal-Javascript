@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Botão principal*/
 .btn > button{
   background-color: darkblue;
   padding: 10px;
@@ -16,6 +22,8 @@
   transition: .3s;
 }
 
+/*Configurações do modal*/
+
 .janela-modal {
   width: 100vw;
   height: 100vh;
@@ -32,10 +40,25 @@
 }
 
 .modal {
-  width: 450px;
   max-width: 100%;
+  width: 500px;
   background-color: #ffffff7f;
   backdrop-filter: blur(10px);
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
+}
+
+/*Botão de encerramento do modal*/
+
+.fechar {
+  position: absolute;
+  top: -0.5px;
+  right: -1px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
 }
