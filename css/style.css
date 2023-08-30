@@ -20,7 +20,7 @@
 }
 
 .btn > button:hover {
-  background-color:rgb(255, 174, 24) ;
+  background-color:rgb(255, 101, 24) ;
   transition: .3s;
 }
 
@@ -67,4 +67,20 @@
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
+}
+
+@keyframes abrirmodal{
+  from{
+    opacity: 0;
+    transform: translate3d(0, -20px, -5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0 ,0);
+  }
+}
+
+
+.open .modal {
+  animation: abrirmodal .5s;
 }
