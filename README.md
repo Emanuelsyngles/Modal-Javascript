@@ -5,7 +5,7 @@
  Esse é um modal convencional, muito utilizado em plataformas de ensino bem simples e funcional.
 
  ## Como funciona?
- O modal abre automaticamente exibindo as informações, temos um icone de fechamento que faz com que o modal suma.
+ O modal abre automaticamente exibindo as informações, temos um icone de fechamento que faz com que o modal fique oculto.
 
  ## Ferramentas 🔧
  - [HTML5](https://html.com/)
