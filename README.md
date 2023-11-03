@@ -8,7 +8,7 @@
  O modal abre automaticamente exibindo as informações, temos um icone de fechamento que faz com que o modal fique oculto.
 
  ## Como acessar?
- Acesse através desse link: -[Projeto](https://modalemjs.netlify.app/)
+ Acesse através desse link: [Projeto](https://modalemjs.netlify.app/)
 
  ## Ferramentas 🔧
  - [HTML5](https://html.com/)
